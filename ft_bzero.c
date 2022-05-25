@@ -6,7 +6,22 @@
 /*   By: muganiev <gf.black.tv@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/16 14:40:00 by muganiev          #+#    #+#             */
-/*   Updated: 2022/05/16 14:40:01 by muganiev         ###   ########.fr       */
+/*   Updated: 2022/05/25 19:11:58 by muganiev         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
+
+void	ft_bzero(void *s, size_t n)
+{
+	size_t	i;
+
+	if (!s)
+		return (NULL);
+	i = 0;
+	while (i < n)
+	{
+		*(char *)(s + i) = 0;
+		i++;
+	}
+}
