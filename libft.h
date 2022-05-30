@@ -6,7 +6,7 @@
 /*   By: muganiev <gf.black.tv@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/16 14:41:00 by muganiev          #+#    #+#             */
-/*   Updated: 2022/05/19 19:22:11 by muganiev         ###   ########.fr       */
+/*   Updated: 2022/05/30 20:13:01 by muganiev         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,5 +25,6 @@ char	*ft_strrchar(char *s, int c);
 int		ft_strlen(const char *s);
 int		ft_tolower(int c);
 int		ft_toupper(int c);
+char	*ft_strdup(const char *s1);
 
 #endif
