@@ -6,7 +6,13 @@
 /*   By: muganiev <gf.black.tv@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/26 15:13:56 by muganiev          #+#    #+#             */
-/*   Updated: 2022/05/26 15:13:57 by muganiev         ###   ########.fr       */
+/*   Updated: 2022/05/31 18:04:28 by muganiev         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
+
+void	ft_putnbr_fd(int n, int fd)
+{
+	
+}
