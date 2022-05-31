@@ -6,12 +6,13 @@
 /*   By: muganiev <gf.black.tv@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/26 15:13:56 by muganiev          #+#    #+#             */
-/*   Updated: 2022/05/26 15:13:57 by muganiev         ###   ########.fr       */
+/*   Updated: 2022/05/31 18:04:28 by muganiev         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+<<<<<<< HEAD
 static int
 	ft_abs(int nbr)
 {
@@ -41,4 +42,9 @@ void
 		length--;
 	while (length >= 0)
 		write(fd, &str[length--], 1);
+=======
+void	ft_putnbr_fd(int n, int fd)
+{
+	
+>>>>>>> 5e5381a82a3b1669bdf708d385132bb61edeb1f6
 }

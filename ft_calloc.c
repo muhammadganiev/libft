@@ -6,7 +6,7 @@
 /*   By: muganiev <gf.black.tv@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/30 20:20:25 by muganiev          #+#    #+#             */
-/*   Updated: 2022/05/30 20:20:26 by muganiev         ###   ########.fr       */
+/*   Updated: 2022/05/31 17:57:28 by muganiev         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,9 +16,9 @@ void	*ft_calloc(size_t count, size_t size)
 {
 	unsigned char	*ptr;
 
-	ptr = NULL;
-	if (!(ptr = malloc(count * size)))
-		return (0);
+	ptr = malloc(count * size);
+	if (!ptr)
+		return (NULL);
 	ft_bzero(ptr, count * size);
 	return (ptr);
 }
