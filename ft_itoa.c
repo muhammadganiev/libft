@@ -6,16 +6,18 @@
 /*   By: muganiev <gf.black.tv@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/26 15:13:40 by muganiev          #+#    #+#             */
-/*   Updated: 2022/05/26 15:13:41 by muganiev         ###   ########.fr       */
+/*   Updated: 2022/05/31 18:02:07 by muganiev         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static int
-	ft_abs(int nbr)
+static int	ft_abs(int nbr)
 {
-	return ((nbr < 0) ? -nbr : nbr);
+	if (nbr < 0)
+		return (-nbr);
+	else
+		return (nbr);
 }
 
 static void
@@ -44,7 +46,8 @@ char
 	size_t	length;
 
 	is_neg = (n < 0);
-	if (!(str = ft_calloc(11 + is_neg, sizeof(*str))))
+	str = ft_calloc(11 + is_neg, sizeof(*str));
+	if (!str)
 		return (NULL);
 	if (n == 0)
 		str[0] = '0';
