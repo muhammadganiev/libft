@@ -6,7 +6,7 @@
 /*   By: muganiev <gf.black.tv@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/16 14:39:48 by muganiev          #+#    #+#             */
-/*   Updated: 2022/05/25 19:28:35 by muganiev         ###   ########.fr       */
+/*   Updated: 2022/05/31 19:31:46 by muganiev         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,7 @@ int	ft_atoi(const char *str)
 	int	res;
 
 	is_neg = 1;
+	i = 0;
 	if (!str)
 		return (0);
 	while (str[i] == '\t' || str[i] == '\n' || str[i] == '\v' || str[i] == '\f'

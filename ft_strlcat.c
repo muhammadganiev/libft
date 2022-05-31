@@ -6,7 +6,7 @@
 /*   By: muganiev <gf.black.tv@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/16 14:40:34 by muganiev          #+#    #+#             */
-/*   Updated: 2022/05/25 18:53:42 by muganiev         ###   ########.fr       */
+/*   Updated: 2022/05/31 19:30:35 by muganiev         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 	size_t	s_len;
 
 	s_len = ft_strlen(src);
-	d_len = ft_strchr(dst);
+	d_len = ft_strlen(dst);
 	j = d_len;
 	i = 0;
 	if (d_len < size - 1 && size > 0)

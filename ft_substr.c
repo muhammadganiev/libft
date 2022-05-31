@@ -6,7 +6,7 @@
 /*   By: muganiev <gf.black.tv@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/26 15:14:25 by muganiev          #+#    #+#             */
-/*   Updated: 2022/05/29 19:32:08 by muganiev         ###   ########.fr       */
+/*   Updated: 2022/05/31 19:31:10 by muganiev         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	{
 		if (i > start && j < len)
 		{
-				str[j] = s[i]
+				str[j] = s[i];
 				j++;
 		}
 		i++;
