@@ -3,7 +3,6 @@ make: Entering directory `/Users/muganiev/Desktop/libft'
 gcc -Wall -Wextra -Werror -I.   -c -o ft_isalnum.o ft_isalnum.c
 gcc -Wall -Wextra -Werror -I.   -c -o ft_isprint.o ft_isprint.c
 gcc -Wall -Wextra -Werror -I.   -c -o ft_memcmp.o ft_memcmp.c
- 
 gcc -Wall -Wextra -Werror -I.   -c -o ft_putchar_fd.o ft_putchar_fd.c
 gcc -Wall -Wextra -Werror -I.   -c -o ft_split.o ft_split.c
 gcc -Wall -Wextra -Werror -I.   -c -o ft_strlcat.o ft_strlcat.c
@@ -15,7 +14,6 @@ gcc -Wall -Wextra -Werror -I.   -c -o ft_itoa.o ft_itoa.c
 gcc -Wall -Wextra -Werror -I.   -c -o ft_memcpy.o ft_memcpy.c
 gcc -Wall -Wextra -Werror -I.   -c -o ft_putendl_fd.o ft_putendl_fd.c
 gcc -Wall -Wextra -Werror -I.   -c -o ft_strchr.o ft_strchr.c
- 
 gcc -Wall -Wextra -Werror -I.   -c -o ft_strlcpy.o ft_strlcpy.c
 gcc -Wall -Wextra -Werror -I.   -c -o ft_strnstr.o ft_strnstr.c
 gcc -Wall -Wextra -Werror -I.   -c -o ft_tolower.o ft_tolower.c
@@ -31,6 +29,7 @@ gcc -Wall -Wextra -Werror -I.   -c -o ft_calloc.o ft_calloc.c
 gcc -Wall -Wextra -Werror -I.   -c -o ft_isdigit.o ft_isdigit.c
 gcc -Wall -Wextra -Werror -I.   -c -o ft_memchr.o ft_memchr.c
 gcc -Wall -Wextra -Werror -I.   -c -o ft_memset.o ft_memset.c
+ 
 gcc -Wall -Wextra -Werror -I.   -c -o ft_putstr_fd.o ft_putstr_fd.c
 gcc -Wall -Wextra -Werror -I.   -c -o ft_strjoin.o ft_strjoin.c
 gcc -Wall -Wextra -Werror -I.   -c -o ft_strmapi.o ft_strmapi.c

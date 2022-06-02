@@ -6,7 +6,21 @@
 /*   By: muganiev <gf.black.tv@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/31 17:55:30 by muganiev          #+#    #+#             */
-/*   Updated: 2022/05/31 17:55:31 by muganiev         ###   ########.fr       */
+/*   Updated: 2022/06/02 20:55:57 by muganiev         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
+
+int	ft_lstsize(t_list *lst)
+{
+	int	i;
+
+	i = 0;
+	while (lst)
+	{
+		lst = lst->next;
+		i++;
+	}
+	return (i);
+}
