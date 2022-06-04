@@ -25,13 +25,13 @@ char	*ft_strjoin(char const *s1, char const *s2)
 		return (NULL);
 	while (s1[i])
 	{
-		str[j++] = s1[i]
+		str[j++] = s1[i];
 			i++;
 	}
 	i = 0;
 	while (s2[i])
 	{
-		str[j++] = s2[i]
+		str[j++] = s2[i];
 			i++;
 	}
 	str[j] = 0;
