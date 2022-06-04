@@ -6,7 +6,7 @@
 /*   By: muganiev <gf.black.tv@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/16 14:41:00 by muganiev          #+#    #+#             */
-/*   Updated: 2022/05/30 20:13:01 by muganiev         ###   ########.fr       */
+/*   Updated: 2022/06/04 21:57:32 by muganiev         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,17 +16,11 @@
 # include <stdlib.h>
 # include <unistd.h>
 
-typedef	struct	s_list
+typedef struct s_list
 {
 	void			*content;
 	struct s_list	*next;
 }				t_list;
-
-typedef struct	s_split_next
-{
-	size_t start;
-	size_t length;
-}				t_split_next;
 
 int				ft_atoi(const char *str);
 
@@ -78,7 +72,7 @@ size_t			ft_strlcat(char *dst, const char *src, size_t size);
 
 size_t			ft_strlcpy(char *dst, const char *src, size_t size);
 
-int			    ft_strlen(const char *s);
+int				ft_strlen(const char *s);
 
 char			*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 
@@ -103,9 +97,9 @@ int				ft_lstsize(t_list *lst);
 
 t_list			*ft_lstlast(t_list *lst);
 
-void			ft_lstadd_front(t_list **alst, t_list *new);
+void			ft_lstadd_front(t_list **lst, t_list *new);
 
-void			ft_lstadd_back(t_list **alst, t_list *new);
+void			ft_lstadd_back(t_list **lst, t_list *new);
 
 void			ft_lstdelone(t_list *lst, void (*del)(void*));
 

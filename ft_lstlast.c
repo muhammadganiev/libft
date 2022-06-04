@@ -6,20 +6,20 @@
 /*   By: muganiev <gf.black.tv@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/31 17:55:22 by muganiev          #+#    #+#             */
-/*   Updated: 2022/06/02 20:57:54 by muganiev         ###   ########.fr       */
+/*   Updated: 2022/06/04 21:59:15 by muganiev         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-t_list	*ft_lstlast(t_list *lst)
-{
-	if (lst == NULL)
-		return (0);
-	while (lst)
-	{
-		if (lst->next == NULL)
-			re
-	}
+// t_list	*ft_lstlast(t_list *lst)
+// {
+// 	if (lst == NULL)
+// 		return (0);
+// 	while (lst)
+// 	{
+// 		if (lst->next == NULL)
+// 			re
+// 	}
 	
-}
+// }

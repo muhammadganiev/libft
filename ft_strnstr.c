@@ -6,7 +6,7 @@
 /*   By: muganiev <gf.black.tv@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/16 14:40:45 by muganiev          #+#    #+#             */
-/*   Updated: 2022/05/25 18:43:55 by muganiev         ###   ########.fr       */
+/*   Updated: 2022/06/04 21:43:59 by muganiev         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,16 +21,16 @@ char
 	if (!haystack || !needle)
 		return (NULL);
 	if (!needle || !needle[0])
-		return ((char*)haystack);
+		return ((char *)haystack);
 	i = 0;
 	while (haystack[i] && i < len)
 	{
 		j = 0;
-		while (haystack[i + j] && needle[j] &&
-				i + j < len && haystack[i + j] == needle[j])
+		while (haystack[i + j] && needle[j] && i + j < len && haystack[i + j]
+			== needle[j])
 			j++;
 		if (!needle[j])
-			return ((char*)(haystack + i));
+			return ((char *)(haystack + i));
 		i++;
 	}
 	return (NULL);

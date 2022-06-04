@@ -6,7 +6,7 @@
 /*   By: muganiev <gf.black.tv@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/16 14:40:48 by muganiev          #+#    #+#             */
-/*   Updated: 2022/05/19 19:18:54 by muganiev         ###   ########.fr       */
+/*   Updated: 2022/06/04 21:42:53 by muganiev         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 char	*ft_strrchr(const char *s, int c)
 {
-	int i;
+	int	i;
 
 	i = ft_strlen(s);
 	while (i >= 0)
